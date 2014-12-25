@@ -20,7 +20,7 @@ apply plugin: "codenarc"
 apply plugin: "uk.co.cacoethes.lazybones-templates"
 
 applicationName = "lazybones"
-mainClassName = "uk.co.cacoethes.lazybones.LazybonesMain"
+mainClassName = "uk.co.cacoethes.lazybones.cli.LazybonesMain"
 applicationDefaultJvmArgs = ["-XX:+TieredCompilation", "-XX:TieredStopAtLevel=1", "-XX:CICompilerCount=3"]
 version = "0.9-SNAPSHOT"
 
